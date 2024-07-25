@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    .first {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .b1:hover {
+        background-color: rgb(154, 144, 144);
+        color: black;
+    }
+
+    .b1 {
+        color: white;
+        border-radius: 20px;
+        background-color: black;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+
+    }
+
+    .second {
+        background-color: rgb(186, 186, 206);
+        border-radius: 20px;
+        width: 300px;
+        padding: 10px;
+    }
+
+    .third {
+        background-color: rgb(186, 186, 206);
+        border-radius: 20px;
+        width: 300px;
+        padding: 10px;
+        margin-left: 100px;
+    }
+
+    .box {
+        display: flex;
+        width: 700px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .fourth {
+        background-color: rgb(186, 186, 206);
+        border-radius: 20px;
+        padding: 10px;
+        width: 700px;
+        margin-top: 50px;
+        margin-left: 50px;
+        display: flex;
+    }
+
+    .green {
+        padding-top: 10px;
+        margin-left: 50px;
+    }
+
+    .second:hover {
+        background-color: lightblue;
+    }
+
+    .third:hover {
+        background-color: lightblue;
+    }
+
+    .fourth:hover {
+        background-color: lightblue;
+    }
+
+    .full {
+        display: flex;
+    }
+
+    .small {
+        position: absolute;
+        top: 25px;
+        left: 45%;
+    }
+    .img{
+        position: relative;
+    }
+    .img1{
+        width: 750px;
+        margin-top: 80px;
+        margin-left: 80px;
+        height: 850px;
+        animation-name: img2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes img2 {
+        0%{content: url(tree.avif);}
+        50%{content: url(texture-waves2.jpeg);}
+        100%{content: url(greengrid.jpg);}
+    }
+</style>
+
+<body>
+    <div class="full">
+        <div class="main1">
+
+            <div class="first">
+                <h1 style="font-size: 67px;color: black;">We build your dream<br>
+                    house with our passion</h1>
+                <p style="font-size: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing <br>elit. Asperiores
+                    facere ratione nesciunt vitae! Accusam<br>us itaque minus nisi praesentium .</p>
+                <button class="b1">get started</button>
+            </div>
+            <div class="box">
+                <div class="second">
+                    <h1 style="color: 1px black;font-size: 30px;">178k+</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur <br>adipisicing elit. Reiciendis, saepe ipsam<br> nulla
+                        sapiente ea, facere maxime<br> placeat tempora quae expedita dolores</p>
+                </div>
+                <div class="third">
+                    <h1 style="color: 1px black;font-size: 30px;">362</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur <br>adipisicing elit. Reiciendis, saepe ipsam<br> nulla
+                        sapiente ea, facere maxime<br> placeat tempora quae expedita dolores</p>
+                </div>
+            </div>
+            <div class="fourth">
+                <div>
+                    <h1 style="color: 1px black;font-size: 30px;">Title</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>Incidunt quaerat quis animi
+                        architecto doloribus<br> cumque eveniet fugiat, vel maiores<br> pariatur minima a voluptatum
+                        corporis<br> eos quasi accusantium, repudian</p>
+                </div>
+                <img src="greengrid.jpg" alt="green" style="width: 200px;">
+            </div>
+        </div>
+        <div class="img">
+            <img src="greengrid.jpg" alt="tree" class="img1">
+            <div class="small">
+                <img src="tree.avif" style="height: 100px;width: 100px;border-radius: 50%;">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
